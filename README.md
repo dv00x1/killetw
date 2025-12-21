@@ -1,0 +1,1 @@
+This tool targets the User-mode ETW (Event Tracing for Windows) by overwriting the entry point of NtTraceEvent with a RET instruction (0xC3). This effectively blinds the process from system event logging and internal instrumentation.
